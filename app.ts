@@ -3,24 +3,12 @@ import { download } from 'electron-dl';
 
 // Files to download
 const files: string[] = [
-  'info.txt',
-  'patch-4.mpq',
-  'patch-5.mpq',
-  'patch-7.mpq',
-  'patch-9.mpq',
-  'patch-B.mpq',
-  'patch-C.mpq',
-  'patch-D.mpq',
-  'patch-F.mpq',
-  'patch-G.mpq',
-  'patch-J.mpq',
-  'patch-L.mpq',
-  'patch-S.mpq',
-  'patch-T.mpq',
-  'patch-U.mpq',
+  "info.txt",
+  "AraxiaPatchv1.tar.gz",
+  "HDPatchv1.tar.gz",
 ];
 
-const patchSource = 'https://storage.googleapis.com/araxia-client-patches/';
+const patchSource = 'https://storage.googleapis.com/araxia-client-patches/Updatev1/';
 const appName = 'Araxia Client Patch Downloader';
 
 let mainWindow: BrowserWindow | null;
